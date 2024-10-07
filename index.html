@@ -1,0 +1,213 @@
+<html>
+ <head>
+  <title>
+   Transfer Dana - BCA
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #f1c40f;
+            color: #000;
+            padding: 5px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #fff;
+        }
+        .sidebar {
+            background-color: #4a69bd;
+            color: #fff;
+            padding: 10px;
+            width: 200px;
+        }
+        .content {
+            padding: 10px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            margin-top: 20px;
+        }
+        .title {
+            background-color: #8e44ad;
+            color: #fff;
+            padding: 5px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .input-group {
+            margin-bottom: 10px;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .input-group input, .input-group select {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+        .input-group textarea {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            height: 60px;
+        }
+        .btn {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #2980b9;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-200">
+  <div class="header">
+   <p>
+    Tanggal : 26/06/2014 Jam : 08:31:17
+   </p>
+  </div>
+  <div class="container mx-auto bg-white shadow-lg">
+   <div class="flex">
+    <div class="sidebar">
+     <img alt="BCA Logo" class="mb-4" height="50" src="https://storage.googleapis.com/a1aa/image/9qJF4lUUSfyrISGeaepEGKcZCh771Uf2MNrzZYSMp0TN3cROB.jpg" width="150"/>
+     <ul>
+      <li class="mb-2">
+       <a class="text-white" href="#">
+        Daftar Rekening Tujuan
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="text-white" href="#">
+        Transfer ke Rek. BCA
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="text-white" href="#">
+        Transfer ke BCA Virtual Account
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="text-white" href="#">
+        Transfer ke Rek. Bank lain Dalam Negeri
+       </a>
+      </li>
+     </ul>
+     <a class="text-white" href="#">
+      Kembali ke Menu Utama
+     </a>
+    </div>
+    <div class="content flex-1">
+     <div class="title">
+      <h2>
+       TRANSFER DANA-TRANSFER KE REK. BCA
+      </h2>
+     </div>
+     <div class="input-group">
+      <label>
+       DARI REKENING
+      </label>
+      <select>
+       <option>
+        ************
+       </option>
+      </select>
+     </div>
+     <div class="input-group">
+      <label>
+       SILAKAN PILIH REKENING TUJUAN
+      </label>
+      <div>
+       <input checked="" id="rekeningSendiri" name="rekening" type="radio"/>
+       <label for="rekeningSendiri">
+        REKENING SENDIRI
+       </label>
+      </div>
+      <div>
+       <input id="daftarTransfer" name="rekening" type="radio"/>
+       <label for="daftarTransfer">
+        DARI DAFTAR TRANSFER
+       </label>
+      </div>
+     </div>
+     <div class="input-group">
+      <select>
+       <option>
+        2106017899 - TOMMIE HARYANTO
+       </option>
+      </select>
+     </div>
+     <div class="input-group">
+      <label>
+       JUMLAH
+      </label>
+      <div class="flex">
+       <select class="w-1/4">
+        <option>
+         Rp.
+        </option>
+       </select>
+       <input class="w-3/4" type="text" value="87897"/>
+      </div>
+     </div>
+     <div class="input-group">
+      <label>
+       BERITA
+      </label>
+      <input type="text" value="Pembayaran Domain"/>
+     </div>
+     <div class="input-group">
+      <input type="text" value="Tagihan #763235"/>
+     </div>
+     <div class="input-group">
+      <label>
+       MASUKKAN 8 ANGKA INI PADA KEYBCA
+      </label>
+      <input type="text" value="77 017899"/>
+     </div>
+     <div class="input-group">
+      <label>
+       PASTIKAN 6 ANGKA TERAKHIR SESUAI DENGAN NOMOR REKENING TUJUAN ANDA
+      </label>
+      <input type="password"/>
+      <a class="text-blue-500" href="#">
+       HELP KEYBCA
+      </a>
+     </div>
+     <div class="title">
+      <h2>
+       JENIS TRANSFER
+      </h2>
+     </div>
+     <div class="input-group">
+      <input checked="" id="transferSekarang" name="jenisTransfer" type="radio"/>
+      <label for="transferSekarang">
+       TRANSFER SEKARANG
+      </label>
+     </div>
+    </div>
+   </div>
+   <div class="footer">
+    <p>
+     Copyright © 2000
+     <img alt="BCA Logo" height="20" src="https://storage.googleapis.com/a1aa/image/9qJF4lUUSfyrISGeaepEGKcZCh771Uf2MNrzZYSMp0TN3cROB.jpg" width="20"/>
+     BCA All Rights Reserved
+    </p>
+   </div>
+  </div>
+ </body>
+</html>
